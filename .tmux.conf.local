@@ -6,9 +6,9 @@
 #         without any warranty.
 #         Copyright 2012— Gregory Pakosz (@gpakosz).
 
-set -g mouse on
-
-set -g base-index 1
+set -g prefix C-y
+unbind C-y
+bind C-y send-prefix
 
 
 # -- bindings ------------------------------------------------------------------
@@ -227,3 +227,4 @@ set -g mouse on
 set -g status-keys vi
 set -g mode-keys vi
 
+set -g base-index 1
