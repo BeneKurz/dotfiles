@@ -10,6 +10,9 @@ set -g prefix C-y
 unbind C-y
 bind C-y send-prefix
 
+set -g prefix2 C-b                        # GNU-Screen compatible prefix
+bind C-b send-prefix -2
+
 
 # -- bindings ------------------------------------------------------------------
 
